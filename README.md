@@ -14,23 +14,6 @@ Requirements
     Java: JDK 23 or higher.
     Gradle: Gradle 6.0 or higher (can use the Gradle wrapper included in the project).
 
-Project Structure
-
-src/
-├── main/
-│   ├── java/
-│   │   └── com/
-│   │       └── fullheap/
-│   │           └── bingo90/
-│   │               ├── Main.java      # Main application entry point
-│   │               ├── Numbers.java   # Contains numbers used in bingo
-│   │               ├── Stripe.java    # Represents a Bingo stripe
-│   │               └── Ticket.java    # Represents a Bingo stripe
-│   │               └── Seed.java      # Provides seed data for Bingo generation
-
-build.gradle                         # Gradle build configuration
-README.md                            # Project documentation
-
 Usage
 1. Build the Project
 
